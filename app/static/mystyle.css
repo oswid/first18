@@ -1,0 +1,116 @@
+.key{
+    height: 50px;
+    width: 50px;
+    background: white;
+    font-family: "Arial";
+    font-size: 38px;
+    border: solid black 3px;
+    margin: 0;
+    text-align: center;
+}
+
+.col-1{
+    /* background: red; */
+}
+
+.col-2{
+    /* background: yellow */
+}
+
+.col-3{
+    /* background: orange */
+}
+.col-4{
+    /* background: blue */
+}
+
+.col-5{
+    /* background: green */
+}
+
+.col-6{
+    /* background: purple */
+}
+
+.row-1{
+    /* border: solid yellow; */
+}
+
+.row-2{
+    /* border: solid black */
+}
+
+.row-3{
+    /* border: solid orange */
+}
+
+.row-4{
+    /* border: solid blue */
+}
+
+
+
+.wrapper-0{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper-2{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.wrapper-3{
+    display: flex;
+    flex-direction: row;
+}
+
+#key-24{
+    margin-left:56px;
+}
+
+#key-34{
+    margin-left: 112px;
+}
+
+#key-37{
+    margin-left: 224px;
+}
+
+.hand-r.col-1{
+    margin-left: 112px;
+}
+
+.col-1{
+    position: relative;
+    top: 28px;
+}
+
+.col-3{
+    position: relative;
+    bottom: 12px;
+}
+
+.col-4{
+    position: relative;
+    bottom: 12px;
+}
+
+
+.col-5{
+    position: relative;
+    top: 38px;
+}
+
+
+.col-6{
+    position: relative;
+    top: 60px;
+}
