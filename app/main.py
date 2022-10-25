@@ -15,5 +15,5 @@ app.mount("/static", StaticFiles(directory=str(Path(BASE_DIR, 'static'))), name=
 
 @app.get("/", response_class=HTMLResponse)
 async def read_item(request: Request):
-    return templates.TemplateResponse("layout_rus.html", {"request": request})
+    return templates.TemplateResponse("img.html", {"request": request})
 
